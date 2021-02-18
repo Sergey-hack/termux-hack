@@ -1,13 +1,13 @@
-apt-get update
-apt-get upgrade
-apt update
-apt upgrade
-pkg update
-pkg upgrade
+apt-get update -y
+apt-get upgrade -y
+apt update -y
+apt upgrade -y
+pkg update -y
+pkg upgrade -y
 cd #
 git clone https://github.con/SergoProxy/InfinityBomber
-pkg install tor
-pkg install python2
+pkg install tor -y
+pkg install python2 -y
 git clone https://github.com/evait-security/weeman
 chmod +x setup
 ./setup
@@ -16,7 +16,7 @@ git clone https://github.com/sabri-zaki/EasY-HaCk
 cd EasY-HaCk
 chmod +x install.sh
 ./install.sh
-pkg install python
+pkg install python -y
 mkdir bonus
 cd bonus
 git clone https://github.com/Sergey-hack/prime-number-generator-ru
