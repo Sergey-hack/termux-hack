@@ -11,8 +11,6 @@ pkg install python2 -y
 git clone https://github.com/evait-security/weeman
 chmod +x setup
 ./setup
-cd #
-git clone https://github.com/sabri-zaki/EasY-HaC
 pkg install python -y
 mkdir bonus
 cd bonus
