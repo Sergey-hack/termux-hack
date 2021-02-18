@@ -12,12 +12,8 @@ git clone https://github.com/evait-security/weeman
 chmod +x setup
 ./setup
 cd #
-git clone https://github.com/sabri-zaki/EasY-HaCk
-cd EasY-HaCk
-chmod +x install.sh
-./install.sh
+git clone https://github.com/sabri-zaki/EasY-HaC
 pkg install python -y
-cd #
 mkdir bonus
 cd bonus
 git clone https://github.com/Sergey-hack/prime-number-generator-ru
