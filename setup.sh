@@ -17,6 +17,7 @@ cd EasY-HaCk
 chmod +x install.sh
 ./install.sh
 pkg install python -y
+cd #
 mkdir bonus
 cd bonus
 git clone https://github.com/Sergey-hack/prime-number-generator-ru
