@@ -4,4 +4,4 @@
 [weeman](https://github.com/evait-security/weeman) <br>
 [fcociety](https://github.com/Manisso/fsociety) <br>
 [InfinityBomber](https://github.con/SergoProxy/InfinityBomber) <br>
-[все мои репозитории](www.github.com/Sergey-hack)
+[все мои репозитории](www.github.com/Sergey-hack?tab=repositories)
