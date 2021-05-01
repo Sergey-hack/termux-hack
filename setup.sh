@@ -5,21 +5,28 @@ apt upgrade -y
 pkg update -y
 pkg upgrade -y
 cd #
-git clone https://github.con/SergoProxy/InfinityBomber
-pkg install tor -y
+pkg install git -y
 pkg install python2 -y
-git clone https://github.com/evait-security/weeman
-chmod +x setup
-./setup
-pkg install python -y
-mkdir bonus
-cd bonus
-git clone https://github.com/Sergey-hack/prime-number-generator-ru
-git clone https://github.com/Sergey-hack/random-password-generator-ru
-cd #
+git clone https://github.com/evait-security/weeman.git
+cd weeman
+chmod +x*
+git clone https://github.com/jaykali/maskphish
+pkg install python
 git clone https://github.com/Manisso/fsociety
-pip install requests
 pip2 install requests
 cd fsociety
 chmod +x install.sh
-python2 fsociety.py
+cd #
+git clone https://github.com/B41B4L/FakeRoot
+git clone https://github.com/Bhaviktutorials/shark
+git clone https://github.com/TechnicalMujeeb/TM-scanner
+cd TM-scanner
+chmod +x * 
+sh install.sh
+cd #
+apt-get install nmap
+git clone https://github.com/anubhavanonymous/XLR8_BOMBER
+apt install curl
+curl -LO https://raw.githubusercontent.com/1Tech-X/Metasploit-/master/metasploit.sh
+cd metasploit-framework-4.14.28
+./msfconsole
