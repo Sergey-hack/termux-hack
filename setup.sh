@@ -21,7 +21,7 @@ git clone https://github.com/B41B4L/FakeRoot
 git clone https://github.com/Bhaviktutorials/shark
 apt install curl -y
 curl -LO https://raw.githubusercontent.com/1Tech-X/Metasploit-/master/metasploit.sh
-cd metasploit-framework-4.14.28
+bash metasploit.sh
 ./msfconsole
 git clone https://github.com/TechnicalMujeeb/TM-scanner
 cd TM-scanner
