@@ -5,7 +5,6 @@ apt upgrade -y
 pkg update -y
 pkg upgrade -y
 cd #
-pkg install git -y
 pkg install python2 -y
 git clone https://github.com/evait-security/weeman.git
 cd weeman
