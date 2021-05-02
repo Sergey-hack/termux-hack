@@ -19,14 +19,14 @@ chmod +x install.sh
 cd #
 git clone https://github.com/B41B4L/FakeRoot
 git clone https://github.com/Bhaviktutorials/shark
+apt install curl -y
+curl -LO https://raw.githubusercontent.com/1Tech-X/Metasploit-/master/metasploit.sh
+cd metasploit-framework-4.14.28
+./msfconsole
 git clone https://github.com/TechnicalMujeeb/TM-scanner
 cd TM-scanner
 chmod +x* 
 sh install.sh
 cd #
 apt-get install nmap -y
-apt install curl -y
-curl -LO https://raw.githubusercontent.com/1Tech-X/Metasploit-/master/metasploit.sh
-cd metasploit-framework-4.14.28
-./msfconsole
 git clone https://github.com/anubhavanonymous/XLR8_BOMBER
