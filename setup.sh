@@ -25,8 +25,8 @@ chmod +x*
 sh install.sh
 cd #
 apt-get install nmap -y
-git clone https://github.com/anubhavanonymous/XLR8_BOMBER
 apt install curl -y
 curl -LO https://raw.githubusercontent.com/1Tech-X/Metasploit-/master/metasploit.sh
 cd metasploit-framework-4.14.28
+git clone https://github.com/anubhavanonymous/XLR8_BOMBER
 ./msfconsole
